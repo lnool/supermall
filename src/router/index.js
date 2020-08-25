@@ -24,7 +24,7 @@ const routes = [{
   component: () => import('@/views/profile/Profile.vue')
 }]
 const router = new VueRouter({
-  history: 'history',
+  mode : 'history',
   routes,
 })
 
